@@ -1,4 +1,5 @@
-{"movies":[
+{
+  "movies":[
   {
     "id": 1,
     "title": "The Shawshank Redemption",
@@ -71,7 +72,7 @@
       "Maggie Gyllenhaal",
       "Gary Oldman"
     ]
-  }, 
+  },
   {
     "id": 5,
     "title": "Schindler's List",
@@ -90,6 +91,185 @@
       "Jonathan Sagall",
       "Embeth Dav"
     ]
+  },
+  {
+    "id": 6,
+    "title": "Joker (2019)",
+    "poster": "https://i.imgur.com/D0IMiql.png",
+    "synopsis": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+    "genres": [
+      "Crime", "Drama", "Thriller"
+    ],
+    "year": 2019,
+    "director": "Todd Phillips",
+    "actors": [
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz",
+      "Frances Conroy",
+      "Brett Cullen",
+      "Shea Whigham"
+    ],
+    "full_cover": "https://i.imgur.com/cNRnLBe.jpeg",
+    "hero": true
   }
-]
+  ],
+  "salas": [
+    {
+      "id": 1,
+      "filmId": 2,
+      "schedule": [
+        {
+          "day": "monday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "tuesday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "friday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "saturday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "sunday",
+          "hours": ["19:30", "22:30"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "filmId": 5,
+      "schedule": [
+        {
+          "day": "monday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "tuesday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "friday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "saturday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "sunday",
+          "hours": ["19:30", "22:30"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "filmId": 1,
+      "schedule": [
+        {
+          "day": "monday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "tuesday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "friday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "saturday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "sunday",
+          "hours": ["19:30", "22:30"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "filmId": 4,
+      "schedule": [
+        {
+          "day": "monday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "tuesday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "friday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "saturday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "sunday",
+          "hours": ["19:30", "22:30"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "filmId": 3,
+      "schedule": [
+        {
+          "day": "monday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "tuesday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "friday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "saturday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "sunday",
+          "hours": ["19:30", "22:30"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "filmId": 6,
+      "schedule": [
+        {
+          "day": "monday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "tuesday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "friday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "saturday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "sunday",
+          "hours": ["19:30", "22:30"]
+        }
+      ]
+    }
+  ]
 }
