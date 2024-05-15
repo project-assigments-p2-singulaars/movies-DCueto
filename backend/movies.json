@@ -17,7 +17,9 @@
       "William Sadler",
       "Clancy Brown",
       "Gil Bellows"
-    ]
+    ],
+    "full_cover": "https://i.imgur.com/6Qm7qRg.png",
+    "hero": "false"
   }, {
     "id": 2,
     "title": "The Godfather",
@@ -35,7 +37,9 @@
       "Richard S. Castellano",
       "Robert Duvall",
       "Sterling Hayden"
-    ]
+    ],
+    "full_cover": "https://images5.alphacoders.com/131/1315822.jpg",
+    "hero": "false"
   }, {
     "id": 3,
     "title": "The Godfather Part II",
@@ -53,7 +57,9 @@
       "Robert De Niro",
       "John Cazale",
       "Talia Shire"
-    ]
+    ],
+    "full_cover": "https://images3.alphacoders.com/131/1315823.jpg",
+    "hero": "false"
   }, {
     "id": 4,
     "title": "The Dark Knight",
@@ -71,7 +77,9 @@
       "Michael Caine",
       "Maggie Gyllenhaal",
       "Gary Oldman"
-    ]
+    ],
+    "full_cover": "https://i.redd.it/wxpkhhp0j3u41.png",
+    "hero": "false"
   },
   {
     "id": 5,
@@ -90,7 +98,9 @@
       "Caroline Goodall",
       "Jonathan Sagall",
       "Embeth Dav"
-    ]
+    ],
+    "full_cover": "https://wallpapercave.com/wp/wp3849122.jpg",
+    "hero": "false"
   },
   {
     "id": 6,
@@ -111,10 +121,10 @@
       "Shea Whigham"
     ],
     "full_cover": "https://i.imgur.com/cNRnLBe.jpeg",
-    "hero": true
+    "hero": "true"
   }
   ],
-  "salas": [
+  "rooms": [
     {
       "id": 1,
       "filmId": 2,

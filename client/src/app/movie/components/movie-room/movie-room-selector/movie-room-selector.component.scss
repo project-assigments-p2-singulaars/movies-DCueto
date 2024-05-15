@@ -1,0 +1,47 @@
+:host{
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.room-selector{
+  max-width: 250px;
+  position: relative;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.room-selector__gradients{
+
+  .gradients__left, .gradients__right{
+    position: absolute;
+    top: 0;
+    width: 15%;
+    height: 100%;
+  }
+  .gradients__left{
+    left: 0;
+    background: linear-gradient(90deg, #0C0C0C 0%, rgba(12, 12, 12, 0.00) 100%);
+  }
+  .gradients__right{
+    right: 0;
+    background: linear-gradient(270deg, #0C0C0C 0%, rgba(12, 12, 12, 0.00) 100%);
+  }
+}
+
+.room-selector__container{
+  display: flex;
+  gap: 2rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  // padding: 0 2rem;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.room-selector__container::-webkit-scrollbar{
+  display: none;
+}

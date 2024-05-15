@@ -1,0 +1,11 @@
+<div class="room-selector">
+  <div class="room-selector__container">
+    @for (room of rooms | async; track $index) {
+      <mv-movie-room-selector-tab [room]="room"></mv-movie-room-selector-tab>
+    }
+  </div>
+  <div class="room-selector__gradients">
+    <div class="gradients__left"></div>
+    <div class="gradients__right"></div>
+  </div>
+</div>

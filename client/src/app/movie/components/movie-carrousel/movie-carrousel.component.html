@@ -1,0 +1,15 @@
+<section class="carrousel">
+  <h4>{{ title }}</h4>
+
+  <div class="carrousel__container">
+    <div class="carrousel__gradient">
+      <div class="gradient__left"></div>
+      <div class="gradient__right"></div>
+    </div>
+    <div class="carrousel__items">
+      @for (movie of movieList | async; track $index) {
+        <mv-movie-carrousel-item [movie]="movie"></mv-movie-carrousel-item>
+      }
+    </div>
+  </div>
+</section>

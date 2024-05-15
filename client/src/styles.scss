@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import './app/styles/reset';
+@import './app/styles/mixins';
+@import './app/styles/variables';
+
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  font-family: Roboto, Helvetica, sans-serif;
+  background-color: $bg-app;
+  color: white;
+  overflow-x: hidden;
+}
+
+body{
+  overflow: hidden;
+}
+
+h2{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h4{
+  font-size: 1.7rem;
+  font-weight: 600;
+}
