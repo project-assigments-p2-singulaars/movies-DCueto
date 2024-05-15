@@ -1,0 +1,49 @@
+:host{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+header{
+  width: inherit;
+  padding: 1rem 10%;
+  animation: scrolledHeader linear both;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.75) 60%, rgba(0, 0, 0, 0.85) 80%, rgb(0, 0, 0) 100%);
+  background-size: 200% 200%;
+  animation-timeline: scroll();
+  background-position: 0% 90%;
+}
+
+svg{
+  width: auto;
+  height: 3rem;
+  animation: downscaleSVG linear both;
+  animation-timeline: scroll();
+}
+
+svg path{
+  fill: white;
+}
+
+@keyframes scrolledHeader {
+  to {
+    // backdrop-filter: blur(3px);
+    // background-position: top;
+    background-position: 0% 20%;
+  }
+}
+
+@keyframes downscaleSVG {
+  to{
+    height: 2rem;
+  }
+}
+
+@media screen and ( width < 780px ){
+  svg path#logo_text{
+    display: none;
+  }
+}

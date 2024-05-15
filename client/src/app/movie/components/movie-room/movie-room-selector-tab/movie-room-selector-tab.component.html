@@ -1,0 +1,5 @@
+
+<div class="room-selector__item {{ selectedRoom() == room.id && 'active' }}" [attr.data-id]="room.id" (click)="handleTabClick( $event )" >
+  <p class="item__text">Room {{ room.id }}</p>
+  <div class="border"></div>
+</div>

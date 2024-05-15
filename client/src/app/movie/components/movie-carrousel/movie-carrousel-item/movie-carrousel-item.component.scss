@@ -1,0 +1,44 @@
+article{
+  width: 176px;
+  cursor: pointer;
+  position: relative;
+  transition: transform .15s ease;
+
+  &:hover{
+    transform: scale(1.1);
+    position: relative;
+    z-index: 1;
+  }
+
+  &:hover img{
+    filter: opacity(1);
+  }
+
+  a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+    color: white;
+  }
+
+  img{
+    width: inherit;
+    height: 252px;
+    object-fit: cover;
+    border-radius: 1rem;
+    filter: opacity(.8);
+    transition: filter .2s ease;
+  }
+
+  h5{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  p{
+    margin-top: .5rem;
+    font-weight: 300;
+  }
+}

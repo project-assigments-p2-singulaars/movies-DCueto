@@ -1,0 +1,27 @@
+<section class="detail">
+  <div class="detail__image">
+    <img class="image__img" src="{{ movie?.full_cover }}" alt="{{ movie?.title }}">
+    <div class="image__filter"></div>
+  </div>
+  <div class="detail__details">
+    <mv-back-button></mv-back-button>
+    <div class="details__content">
+      <img class="details__cover" src="{{ movie?.poster }}" alt="{{ movie?.title }}">
+      <div class="details__data">
+        <h2>{{ movie?.title }}</h2>
+        <p class="data__synopsis">{{ movie?.synopsis }}</p>
+        <p class="data__actors">
+          @for (artist of movie?.actors; track $index) {
+            <span>{{ artist }} | </span>
+          }
+        </p>
+        <p class="data__genres">
+          @for (genre of movie?.genres; track $index) {
+            <span>{{ genre }}, </span>
+          }
+        </p>
+        <mv-movie-button></mv-movie-button>
+      </div>
+    </div>
+  </div>
+</section>

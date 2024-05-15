@@ -1,0 +1,7 @@
+<article>
+  <a [routerLink]="['/movie/detail/', movie?.id]">
+    <img src="{{ movie?.poster }}" alt="{{ movie?.title }}" >
+    <h5>{{ movie?.title }}</h5>
+    <p>{{ movie?.year }}</p>
+  </a>
+</article>
