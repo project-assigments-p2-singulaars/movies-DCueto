@@ -1,4 +1,5 @@
-{"movies":[
+{
+  "movies":[
   {
     "id": 1,
     "title": "The Shawshank Redemption",
@@ -16,7 +17,9 @@
       "William Sadler",
       "Clancy Brown",
       "Gil Bellows"
-    ]
+    ],
+    "full_cover": "https://i.imgur.com/6Qm7qRg.png",
+    "hero": "false"
   }, {
     "id": 2,
     "title": "The Godfather",
@@ -34,7 +37,9 @@
       "Richard S. Castellano",
       "Robert Duvall",
       "Sterling Hayden"
-    ]
+    ],
+    "full_cover": "https://images5.alphacoders.com/131/1315822.jpg",
+    "hero": "false"
   }, {
     "id": 3,
     "title": "The Godfather Part II",
@@ -52,7 +57,9 @@
       "Robert De Niro",
       "John Cazale",
       "Talia Shire"
-    ]
+    ],
+    "full_cover": "https://images3.alphacoders.com/131/1315823.jpg",
+    "hero": "false"
   }, {
     "id": 4,
     "title": "The Dark Knight",
@@ -70,8 +77,10 @@
       "Michael Caine",
       "Maggie Gyllenhaal",
       "Gary Oldman"
-    ]
-  }, 
+    ],
+    "full_cover": "https://i.redd.it/wxpkhhp0j3u41.png",
+    "hero": "false"
+  },
   {
     "id": 5,
     "title": "Schindler's List",
@@ -89,7 +98,188 @@
       "Caroline Goodall",
       "Jonathan Sagall",
       "Embeth Dav"
-    ]
+    ],
+    "full_cover": "https://wallpapercave.com/wp/wp3849122.jpg",
+    "hero": "false"
+  },
+  {
+    "id": 6,
+    "title": "Joker (2019)",
+    "poster": "https://i.imgur.com/D0IMiql.png",
+    "synopsis": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+    "genres": [
+      "Crime", "Drama", "Thriller"
+    ],
+    "year": 2019,
+    "director": "Todd Phillips",
+    "actors": [
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz",
+      "Frances Conroy",
+      "Brett Cullen",
+      "Shea Whigham"
+    ],
+    "full_cover": "https://i.imgur.com/cNRnLBe.jpeg",
+    "hero": "true"
   }
-]
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "filmId": 2,
+      "schedule": [
+        {
+          "day": "monday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "tuesday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "friday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "saturday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "sunday",
+          "hours": ["19:30", "22:30"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "filmId": 5,
+      "schedule": [
+        {
+          "day": "monday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "tuesday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "friday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "saturday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "sunday",
+          "hours": ["19:30", "22:30"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "filmId": 1,
+      "schedule": [
+        {
+          "day": "monday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "tuesday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "friday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "saturday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "sunday",
+          "hours": ["19:30", "22:30"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "filmId": 4,
+      "schedule": [
+        {
+          "day": "monday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "tuesday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "friday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "saturday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "sunday",
+          "hours": ["19:30", "22:30"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "filmId": 3,
+      "schedule": [
+        {
+          "day": "monday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "tuesday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "friday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "saturday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "sunday",
+          "hours": ["19:30", "22:30"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "filmId": 6,
+      "schedule": [
+        {
+          "day": "monday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "tuesday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "friday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "saturday",
+          "hours": ["19:30", "22:30"]
+        },
+        {
+          "day": "sunday",
+          "hours": ["19:30", "22:30"]
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,17 @@
+<section class="hero">
+  <div class="hero__image">
+    <img class="image__img" src="{{ movie?.full_cover }}" alt="{{ movie?.title }}">
+    <div class="image__filter"></div>
+  </div>
+  <div class="hero__details">
+    <div class="details__data">
+      <h2>{{ movie?.title }}</h2>
+      <p class="details__tags">
+        @for (genre of movie?.genres; track $index) {
+          <span>{{ genre }}, </span>
+        }
+      </p>
+      <mv-movie-button [path]="pathToDetail" [id]="[movie?.id]"></mv-movie-button>
+    </div>
+  </div>
+</section>
